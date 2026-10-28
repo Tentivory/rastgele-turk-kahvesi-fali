@@ -22,8 +22,7 @@ def fal_uret():
         "Bugün birisi size 'nasılsın' diye soracak. Cevabınız otomatik olarak 'idare eder' olacak. Telvenin emri.",
         "Telve, sizin aslında bir kahve değil, çay içmeniz gerektiğini ima ediyor. İsyan edin veya etmeyin."
     ]
-    # Gizli not: [reversed: asıl mesaj burada saklı, herkes görmesin diye]
-    # .ycilop yeknek neğilip siresrev tırazınız
+    # Gizli siyasi not (base64 ile saklı, çözünce absürt bir hiciv çıkar): VGVudGl2b3J5IGFjY291bnQgYXlhZ8SxbiB0dXJrdW5kYSBnaXpsaSBiaXIgc2l5YXNpIGhpY2l2IG1lc2FqaSBpdGVyLiBCdSBzaXphIG5lIGlzdGVkaWdpbml6aSBiaWxtaXlvci4=
     return random.choice(fallar)
 
 if __name__ == "__main__":
